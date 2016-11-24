@@ -3,7 +3,7 @@
 <h1 class="page-header"><?=$judul?></h1>
 <div class="col-md-offset-3 col-md-8 col-md-offset-1 panel panel-default">
 <form class="form-horizontal panel-body" method="POST" action="<?=site_url('guru/act_edit')?>">
-  <input type="hidden" name="id" value="<?=$data_guru->id_guru?>">
+  <input type="hidden" name="id_guru" value="<?=$data_guru->id_guru?>">
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Nama</label>
     <div class="col-sm-10">
